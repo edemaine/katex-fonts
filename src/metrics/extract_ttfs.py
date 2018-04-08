@@ -93,7 +93,7 @@ def main():
             if glyph.numberOfContours:
                 height = glyph.yMax / unitsPerEm
                 depth = -glyph.yMin / unitsPerEm
-                width = widths[name].width / unitsPerEm
+            width = widths[name].width / unitsPerEm
             if base_char:
                 base_char_str = str(ord(base_char))
                 base_metrics = start_json[font][base_char_str]
