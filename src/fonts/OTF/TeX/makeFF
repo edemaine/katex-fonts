@@ -1850,18 +1850,9 @@ $extra{'Main-Italic'} = {
   diacriticals => [
     'Select(0uB0)',  'SetRBearing(-160,1)',   # \degree
   ],
-
-  not => [
-    'Select(0u2F)',
-    'SetRBearing(778,1)',
-  ],
 };
 
 $extra{'Math-BoldItalic'} = {
-  not => [
-    'Select(0u2F)',
-    'SetRBearing(894,1)',
-  ],
 };
 
 $extra{'Size1'} = {
