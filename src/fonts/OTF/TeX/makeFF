@@ -204,8 +204,9 @@ $map{cmsy10} = {
     0x33 => 0x220B,         # \ni
     0x34 => 0x25B3,         # \bigtriangleup and \triangle
     0x35 => 0x25BD,         # \bigtriangledown
-    0x36 => 0x2044,         # \not (no negative leading space, but combining
-                            # char U+338 causes trouble, hence FRACTION SLASH)
+    0x36 => 0xE020,         # \not (U+0338 COMBINING LONG SOLIDUS OVERLAY would
+                            # be most natural, but we don't use a negative
+                            # leading space, so use PUA character)
 
     0x38 => 0x2200,         # \forall
     0x39 => 0x2203,         # \exists
@@ -691,8 +692,7 @@ $map{cmbsy10} = {
     0x33 => 0x220B,         # \ni
     0x34 => 0x25B3,         # \bigtriangleup and \triangle
     0x35 => 0x25BD,         # \bigtriangledown
-    0x36 => 0x2044,         # \not (no negative leading space, but combining
-                            # char U+338 causes trouble, hence FRACTION SLASH)
+    0x36 => 0xE020,         # \not
 
     0x38 => 0x2200,         # \forall
     0x39 => 0x2203,         # \exists
